@@ -1,0 +1,36 @@
+.active {
+  background-color: darkred;
+  color: white;
+}
+.btn {
+  background-color: blue;
+  color: white;
+}
+.light {
+  background-color: white;
+  color: black;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+.drop {
+  position: relative;
+}
+.dropMenu li {
+  display: block;
+  list-style: none;
+  margin: 0;
+}
+.dropMenu {
+  position: absolute;
+  background-color: blueviolet;
+  left: 0;
+  padding: 0;
+}
